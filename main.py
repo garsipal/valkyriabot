@@ -6,7 +6,7 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix="!",  activity = discord.Game(name="Valhalla"), intents = discord.Intents().all())
 
-bot.author_id = 487258918465306634  # Change to your discord id!!!
+bot.author_id = 548110161978589196  # Change to your discord id!!!
 
 @bot.event 
 async def on_ready():  # When the bot is ready
